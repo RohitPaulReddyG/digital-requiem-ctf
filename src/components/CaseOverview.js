@@ -60,12 +60,10 @@ function CaseOverview() {
             <li><strong>Blood Type:</strong> B+</li>
             <li><strong>Height:</strong> 5'10"</li>
             <li><strong>Weight:</strong> 189 lbs</li>
-            <li><strong>Primary Device:</strong> Lenovo ThinkPad running Windows 10 Pro</li>
-            <li><strong>Machine Name:</strong> DW-REQUIEM</li>
-            <li><strong>Accounts:</strong> Username: DamianW</li>
+            <li><strong>Primary Device:</strong> Lenovo ThinkPad running Windows 10 </li>
+            <li><strong>Machine Name:</strong> Damian</li>
+            <li><strong>Accounts:</strong> Username: Damian</li>
             <li><strong>Email:</strong> damian.wells@protonmail.com</li>
-            <li><strong>Local login password:</strong> D@rkSonata2024</li>
-            <li><strong>Browser:</strong> Chrome 121.0 (Default)</li>
           </ul>
         </section>
         
