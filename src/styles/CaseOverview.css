@@ -1,0 +1,45 @@
+.case-overview {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.case-overview h2 {
+  color: #61dafb;
+  margin-top: 0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.overview-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  text-align: left;
+}
+
+.overview-content section {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.overview-content h3 {
+  color: #61dafb;
+  margin-top: 0;
+}
+
+.overview-content ul, 
+.overview-content ol {
+  padding-left: 20px;
+}
+
+.overview-content li {
+  margin-bottom: 10px;
+}
+
+.overview-content strong {
+  color: #ffffff;
+}
