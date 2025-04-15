@@ -26,6 +26,11 @@ function App() {
         >
           Case Overview
         </button>
+        <button 
+          onClick={() => window.open('/report.html', '_blank')}
+        >
+          Forensic Report
+        </button>
         {/* Removed the forensic report tab */}
       </div>
       
