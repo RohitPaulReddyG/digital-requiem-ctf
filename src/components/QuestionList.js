@@ -121,6 +121,14 @@ function QuestionList() {
           >
             Download from Google Drive
           </a>
+          <br />
+          <a 
+            href="/report.html" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            View Autopsy Report
+          </a>
         </div>
       </div>
 
