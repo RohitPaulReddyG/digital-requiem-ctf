@@ -26,20 +26,16 @@ function App() {
         >
           Case Overview
         </button>
-        <a 
-          href="/ogreport.html" 
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ 
-            background: 'none', 
-            border: 'none', 
-            padding: '0', 
-            cursor: 'pointer',
-            display: 'inline-block'
+        <button 
+          onClick={() => {
+            const reportWindow = window.open('/ogreport.html', '_blank');
+            if (reportWindow) {
+              reportWindow.opener = null; // Security feature
+            }
           }}
         >
-          <button>Forensic Report</button>
-        </a>
+          Forensic Report
+        </button>
       </div>
       
       <main>
