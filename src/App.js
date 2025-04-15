@@ -26,12 +26,20 @@ function App() {
         >
           Case Overview
         </button>
-        <button 
-          onClick={() => window.open('/report.html', '_blank')}
+        <a 
+          href="/report.html" 
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ 
+            background: 'none', 
+            border: 'none', 
+            padding: '0', 
+            cursor: 'pointer',
+            display: 'inline-block'
+          }}
         >
-          Forensic Report
-        </button>
-        {/* Removed the forensic report tab */}
+          <button>Forensic Report</button>
+        </a>
       </div>
       
       <main>
