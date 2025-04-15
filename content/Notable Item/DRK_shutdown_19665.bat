@@ -1,0 +1,1 @@
+shutdown -s -t 90 -c "Silence awaits you"

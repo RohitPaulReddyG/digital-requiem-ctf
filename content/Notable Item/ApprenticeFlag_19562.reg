@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\DRK]
+"Role"="Apprentice"
+"Initiated"="2023-03-05 09:15:00"
+"Confidence"="Absolute"
