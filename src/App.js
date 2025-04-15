@@ -27,7 +27,7 @@ function App() {
           Case Overview
         </button>
         <a 
-          href="report.html" 
+          href="ogreport.html" 
           target="_blank"
           rel="noopener noreferrer"
           style={{ 
