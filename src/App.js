@@ -26,18 +26,13 @@ function App() {
         >
           Case Overview
         </button>
-        <button 
-          className={activeTab === 'report' ? 'active' : ''} 
-          onClick={() => setActiveTab('report')}
-        >
-          Forensic Report
-        </button>
+        {/* Removed the forensic report tab */}
       </div>
       
       <main>
         {activeTab === 'questions' && <QuestionList />}
         {activeTab === 'overview' && <CaseOverview />}
-        {activeTab === 'report' && <Report />}
+        {/* Removed the report component rendering */}
       </main>
       
       <Footer />
