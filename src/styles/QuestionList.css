@@ -71,3 +71,24 @@
   background-color: #4fa8c9;
   transform: translateY(-2px);
 }
+
+.report-title {
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+}
+
+.report-button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #121212;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.report-button:hover {
+  background-color: #3e8e41;
+  transform: translateY(-2px);
+}
