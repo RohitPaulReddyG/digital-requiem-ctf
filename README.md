@@ -87,7 +87,7 @@ It includes the full interactive interface, downloadable forensic files, and liv
 Clone and run the project locally:
 
 ```bash
-git clone https://github.com/yourusername/digital-requiem.git
+git clone https://github.com/RohitPaulReddyG/digital-requiem.git
 cd digital-requiem
 npm install
 npm start
